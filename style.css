@@ -1,0 +1,135 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color: #ededed;
+}
+.container{
+    width:90%;
+    margin:auto;
+}
+
+/*================================== Header Style =================================*/
+.header{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    border-color: #080808;
+    color: #fff;
+    height: 50px;
+    background-color: #000;
+}
+.header .header-link{
+    display: flex;
+    width:280px;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-weight: bold;
+}
+.logo{
+    margin-left: 56px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* -------------------------------------------content style ---------------------------------*/
+.content{
+    width:100%;
+    height: 75vh;
+}
+.content .banner-image{
+    background: url("img/intro-bg_1.jpg") no-repeat center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content .banner-image .inner-banner-image{
+    padding-top: 12%;
+    width: 80%;
+    height: 50%;
+}
+
+
+/* -------------------------------------------  kaala dabba ---------------------------------*/
+
+.banner_content{
+    background-color: rgba(0,0,0,0.7);
+    width: 660px;
+    height: 50%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.button{
+    color:#fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    padding: 10px 16px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+/* ==========================================content_items====================================== */
+.content_items{
+    width: 100%;
+    height: auto;
+}
+
+.content_items .items-wrap{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 10px 10px 10px;
+    flex-wrap: wrap;
+}
+
+
+.content_items .items-wrap .item{
+    height: 270px;
+    width: 280px;
+    border: 1px solid;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+.content_items .items-wrap .item .thumbnail{
+    height: 60%;
+}
+.content_items .items-wrap .item .thumbnail img{
+    width: 100%;
+    height: 100%;
+    
+}
+.content_items .items-wrap .item .caption{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.content_items .items-wrap .item .caption div:first-child{
+    font-size: 20px;
+}
+.content_items .items-wrap .item .caption div:last-child{
+    font-size: 14px;
+}
+/* Footer part */
+.footer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background-color: #000;
+    color:#fff;
+    font-size: 14px;
+    height: 50px;
+}
